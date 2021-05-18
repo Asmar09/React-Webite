@@ -4,11 +4,14 @@ export const CarouselDataStyle = styled.div`
   .slick-arrow {
     height: 20px;
     width: 20px;
-    border-radius: 100px;
+  border-radius: 100px;
+  background-color: #3ac280;
+  font-size: 80%;
   }
   .slick-prev {
     left: -48px !important;
     z-index: 2;
+    
   }
   .slick-next {
     right: 85px !important;

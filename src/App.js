@@ -13,7 +13,6 @@ function App() {
     <FeeStructure />
     <ExampleData />
     <ContactUs />
-
     <Footer />
     </>
   );
