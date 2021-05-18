@@ -7276,57 +7276,10 @@ a.close.disabled {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8'%3E%3Cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3E%3C/svg%3E")
 }
 
-.carousel-indicators {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 15;
-	display: -ms-flexbox;
-	display: -webkit-box;
-	display: flex;
-	-ms-flex-pack: center;
-	-webkit-box-pack: center;
-	justify-content: center;
-	padding-left: 0;
-	margin-right: 15%;
-	margin-left: 15%;
-	list-style: none
-}
 
-.carousel-indicators li {
-	-webkit-box-sizing: content-box;
-	box-sizing: content-box;
-	-ms-flex: 0 1 auto;
-	-webkit-box-flex: 0;
-	flex: 0 1 auto;
-	width: 30px;
-	height: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	text-indent: -999px;
-	cursor: pointer;
-	background-color: #fff;
-	background-clip: padding-box;
-	border-top: 10px solid rgba(0, 0, 0, 0);
-	border-bottom: 10px solid rgba(0, 0, 0, 0);
-	opacity: .5;
-	-webkit-transition: opacity .6s ease;
-	-o-transition: opacity .6s ease;
-	transition: opacity .6s ease
-}
 
-@media (prefers-reduced-motion:reduce) {
-	.carousel-indicators li {
-		-webkit-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-}
 
-.carousel-indicators .active {
-	opacity: 1
-}
+
 
 .carousel-caption {
 	position: absolute;
@@ -11838,17 +11791,7 @@ span.numeric-character {
 	width: 75%
 }
 
-.carousel-indicators li {
-	width: 11px;
-	height: 11px!important;
-	border-radius: 50%;
-	border: none;
-	background: #cbcbcb
-}
 
-.carousel-indicators li.active {
-	background: #3ac280
-}
 
 .sketch-widget {
 	margin: 40px 0
