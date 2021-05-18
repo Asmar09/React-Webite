@@ -13121,6 +13121,20 @@ a:hover {
 	font-family: Museo Sans Rounded\ 500, Helvetica, Arial, Sans-Serif
 }
 
+
+.css-1jnmlvi-WaterFall{
+background-color: rgb(255, 255, 255);
+justify-content: center;
+text-align: center;
+-webkit-box-pack: center;
+padding-bottom: 20px;
+color: rgb(10, 81, 105);
+}
+
+
+.css-8806o7-WaterFall{
+ margin:  80px 0px 50px;
+}
 .brand_icons {
 	width: 30px;
 	height: auto
