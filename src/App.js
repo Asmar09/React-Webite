@@ -9,9 +9,7 @@ function App() {
   return (
     <>
     <Header />
-    <h1>Data Here</h1>
-    <h1>Data Here</h1>
-    <h1>Data Here</h1>
+    
     <ExampleData />
     <ContactUs />
 

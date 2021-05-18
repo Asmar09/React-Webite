@@ -1,5 +1,6 @@
 import React from 'react';
 import DiliverItems from './DataChunks/sliderData';
+import Sketch from './DataChunks/sketch';
 
 const ExampleData = () => {
     return (
@@ -15,20 +16,21 @@ const ExampleData = () => {
           <div className="deliver_widget_container">
               <div className="lazyload-wrapper">
                   <section><h3 className="widget-title"></h3>
-                  <div><iframe width="100%" height="480" src="https://my.matterport.com/show/?m=e5Wxtu8Arbx" frameborder="0" loading="lazy" allowfullscreen="" allow="vr"></iframe></div>
+                  <div><iframe width="100%" height="480" src="https://my.matterport.com/show/?m=e5Wxtu8Arbx" title="uniqe" frameborder="0" loading="lazy" allowfullscreen="" allow="vr"></iframe></div>
                   </section>
                   </div>
                   <span className="numeric-character"></span>
                   <div className="lazyload-wrapper">
-                      <section><h3 className="widget-title"></h3><div><iframe width="100%" height="480" src="https://my.matterport.com/show/?m=DhqzGgT7M1E" frameborder="0" loading="lazy" allowfullscreen="" allow="vr"></iframe></div>
+                      <section><h3 className="widget-title"></h3>
+                      <div><iframe width="100%" height="480" src="https://my.matterport.com/show/?m=DhqzGgT7M1E" frameborder="0" loading="lazy" allowfullscreen="" allow="vr" title="uniqe"></iframe></div>
                       </section>
                       </div>
                       </div>
                       </div>
                       <span className="numeric-character"></span>
      
-               {/* <DiliverItems /> */}
- 
+               <DiliverItems />
+               <Sketch />
                       
 
 
