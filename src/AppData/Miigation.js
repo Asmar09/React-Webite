@@ -5,7 +5,7 @@ import ReactCompareImage from 'react-compare-image';
 
 const Miigation = () => {
     return (
-     <div>
+     <div id="Ground-Truth-Data">
          <div className="container">
          <div className="mpartial_section">
              <div className="title left">

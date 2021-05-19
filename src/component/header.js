@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import {Link} from 'react-scroll';
+
 
 const Header = () => {
   useEffect(() => {
@@ -34,40 +36,52 @@ const Header = () => {
             <div className="collapse navbar-collapse">
               <ul className="ml-auto main_navbar navbar-nav">
                 <li className="nav-item">
-                  <a
+                  <Link
                     aria-current="page"
                     className="nav-link active"
-                    href="/#Ground-Truth-Data"
+                    to="Ground-Truth-Data"
+                    spy={true} 
+                    smooth={true}
+                    style={{cursor: 'pointer'}}
                   >
                     Ground-Truth Data
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     aria-current="page"
                     className="nav-link active"
-                    href="/#How-It-Works"
+                    to="How-It-Works"
+                    spy={true} 
+                    smooth={true}
+                    style={{cursor: 'pointer'}}
                   >
                     How It Works
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     aria-current="page"
                     className="nav-link active"
-                    href="/#Fee-Structure"
+                    to="Fee-Structure"
+                    spy={true} 
+                    smooth={true}
+                    style={{cursor: 'pointer'}}
                   >
                     Fee Structure
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     aria-current="page"
                     className="nav-link active"
-                    href="/#Example-Deliverables"
+                    to="Example-Deliverables"
+                    spy={true} 
+                    smooth={true}
+                    style={{cursor: 'pointer'}}
                   >
                     Example Deliverables
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/order">
@@ -75,13 +89,16 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     aria-current="page"
+                    to="Contact-US" 
+                    spy={true} 
+                    smooth={true}
                     className="nav-link active"
-                    href="/#Contact-US"
+                    style={{cursor: 'pointer'}}
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a href="/login">

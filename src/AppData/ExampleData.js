@@ -6,7 +6,7 @@ const ExampleData = () => {
     return (
        <>
 
-<div className="mpartial_section howitworks css-13erfhv-Deliverables">
+<div id="Example-Deliverables" className="mpartial_section howitworks css-13erfhv-Deliverables">
     <div className="container">
       <div className="title center">
 <div className="row"><div className="col"><h2 className="section_title_text">Example Deliverables</h2></div></div>

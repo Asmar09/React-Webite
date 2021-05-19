@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactUs = () => {
     return (
-        <div>
+        <div id="Contact-US">
             <div className="mpartial_section contact_us css-1rwznfu-ContactUs">
                 <div className="container">
                     <div className="title center">

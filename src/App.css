@@ -11673,6 +11673,10 @@ nav.scrolled {
   .main_header .scrolled .main_navbar li a {
     color: black;
 }
+
+.main_header .scrolled .main_navbar li a:hover {
+    color: green;
+}
 .rangeslider__labels .rangeslider__label-item {
 	position: absolute;
 	font-size: 14px;

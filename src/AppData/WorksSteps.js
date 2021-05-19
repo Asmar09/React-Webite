@@ -2,7 +2,7 @@ import React from "react";
 
 const WorksSteps = () => {
   return (
-    <div>
+    <div id="How-It-Works">
       <div className="mpartial_section howitworks">
         <div className="container">
           <div className="title center">

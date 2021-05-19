@@ -30,7 +30,7 @@ const FeeStructure = () => {
         return `${value}`;
       }
   return (
-    <div>
+    <div id="Fee-Structure">
       <div className="mpartial_section css-1jnmlvi-WaterFall">
         <div className="container">
           <div className="title center">
