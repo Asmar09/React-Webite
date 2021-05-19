@@ -11271,9 +11271,10 @@ a.text-dark:hover {
 }
 
 .slider_down_btn {
-	position: relative;
+	position: absolute;
 	width: 28px;
 	height: 42px;
+	left: 50%;
 	border: 2px solid #131111;
 	border-radius: 50px;
 	z-index: 99999;
@@ -11305,6 +11306,8 @@ a.text-dark:hover {
 	-o-transition: .4s top;
 	transition: top .4s
 }
+
+
 
 .title .section_title_text {
 	font-family: Museo Sans Rounded\ 500, Helvetica, Arial, Sans-Serif;
@@ -11663,6 +11666,13 @@ a.text-dark:hover {
 	z-index: -1
 }
 
+nav.scrolled {
+	background-color: white;
+	border-bottom: 1px solid grey;
+  }
+  .main_header .scrolled .main_navbar li a {
+    color: black;
+}
 .rangeslider__labels .rangeslider__label-item {
 	position: absolute;
 	font-size: 14px;
