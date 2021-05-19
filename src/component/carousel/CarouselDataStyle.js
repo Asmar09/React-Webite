@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const CarouselDataStyle = styled.div`
   .slick-arrow {
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
   border-radius: 100px;
   background-color: #3ac280;
-  font-size: 80%;
+  font-size: 275%;
   }
   .slick-prev {
     left: -48px !important;
@@ -19,12 +19,12 @@ export const CarouselDataStyle = styled.div`
   }
   .slick-next:before {
     background: transparent;
-    color: #3ac280;
+    color: white;
     font-size: 80%;
   }
   .slick-prev:before {
     background: transparent;
-    color: #3ac280;
+    color: white;
     font-size: 80%;
   }
   .slick-dots {

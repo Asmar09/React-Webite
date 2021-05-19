@@ -56,7 +56,7 @@ const WorksSteps = () => {
             </div>
           </div>
           <div className="try_now_btn">
-            <a href="/login">
+            <a href="/">
               <button className="btn">Get Started</button>
             </a>
           </div>

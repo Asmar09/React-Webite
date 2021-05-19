@@ -16,7 +16,7 @@ const Miigation = () => {
                          <ReactCompareImage leftImage={leftImage} leftImageLabel="Post-Mitigration" rightImage={rightImage} rightImageLabel="Pre-Mitigration" sliderLineColor="#3ac280" hover/>;
                                          </div>
                                          </div>
-                             <div className="try_now_btn"><a href="/order"><button className="btn">Try Today</button></a></div>
+                             <div className="try_now_btn"><a href="/"><button className="btn">Try Today</button></a></div>
                              </div>
     )
 }

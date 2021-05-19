@@ -84,7 +84,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/order">
+                  <a className="nav-link" href="/">
                     Submission Portal
                   </a>
                 </li>
@@ -101,7 +101,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/login">
+                  <a href="/">
                     <button className="btn btn-primary login_btn">
                       Sign In
                     </button>
