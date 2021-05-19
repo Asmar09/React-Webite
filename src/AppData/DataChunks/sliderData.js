@@ -16,7 +16,6 @@ const SliderData = () => {
  <div className="deliver-slider">
         <h3 className="widget-title sub mt-1">Immaculate. Impartial. [ESX]</h3>
         <div className="carousel slide">
-           
          <CarouselData>
          <div className="carousel-inner">
              <div className="carousel-item">
