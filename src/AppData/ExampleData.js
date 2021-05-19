@@ -11,7 +11,7 @@ const ExampleData = () => {
       <div className="title center">
 <div className="row"><div className="col"><h2 className="section_title_text">Example Deliverables</h2></div></div>
       </div>
-      <h3 className="widget-title sub mt-1">Pre-Mitigation Scan + Post-Mitigation Scan = ESX &amp; SKX (TruePlan)</h3>
+      <h3 className="widget-title sub mt-1" style={{marginLeft: "10%"}}>Pre-Mitigation Scan + Post-Mitigation Scan = ESX &amp; SKX (TruePlan)</h3>
       <div class="lazyload-wrapper">
           <div className="deliver_widget_container">
               <div className="lazyload-wrapper">

@@ -31,7 +31,7 @@ export const CarouselData = ({ children, totalSlides = 1}) => {
           slidesToScroll: 1,
           initialSlide: 2,
           infinite: true,
-          dots: true,
+          dots: false,
           arrows: false,
         },
       },
@@ -41,7 +41,7 @@ export const CarouselData = ({ children, totalSlides = 1}) => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
          arrows: false,
 
         },
