@@ -1,7 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import VideoContentImg from "../assets/VideoContent.png";
 
 const VideoContent = () => {
+  const [mainVideoContent, setMainVideoContent] = useState(false);
+
+  const MainVideoContentData = () => {
+    setMainVideoContent(true);
+  };
   useEffect(() => {
     var navbar = document.querySelector("nav");
     window.onscroll = function () {
@@ -18,6 +24,7 @@ const VideoContent = () => {
       <div className="lazyload-wrapper">
         <div
           className="BackgroundVideo background_video css-1y0iy9d-Slider"
+          onClick={MainVideoContentData}
           tabindex="0"
           style={{
             position: "absolute;",
@@ -29,20 +36,36 @@ const VideoContent = () => {
             overflow: "hidden;",
           }}
         >
-          <iframe
-            src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4?autoplay=1&mute=1"
-            width="1665"
-            allow="autoplay; fullscreen"
-            height="936"
-            frameborder="0"
-            style={{
-              position: "absolute;",
-              width: "1665px;",
-              height: "936.562px;",
-              top: "-158.281px;",
-              left: "0px;",
-            }}
-          ></iframe>
+          {mainVideoContent !== true ? (
+            <img
+              width="1665"
+              height="936"
+              style={{
+                position: "absolute;",
+                width: "1665px;",
+                height: "936.562px;",
+                top: "-158.281px;",
+                left: "0px;",
+              }}
+              src={VideoContentImg}
+              alt="Main Video Content"
+            />
+          ) : (
+            <iframe
+              src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4?autoplay=1&controls=0"
+              width="1665"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              height="936"
+              frameborder="0"
+              style={{
+                position: "absolute;",
+                width: "1665px;",
+                height: "936.562px;",
+                top: "-158.281px;",
+                left: "0px;",
+              }}
+            ></iframe>
+          )}
         </div>
       </div>
       <Link
