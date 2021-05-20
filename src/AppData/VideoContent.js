@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { Link } from "react-scroll";
-import VideoContentImg from "../assets/VideoContent.png";
+// import VideoContentImg from "../assets/VideoContent.png";
 import ReactPlayer from "react-player";
 
 
 const VideoContent = () => {
-  const [mainVideoContent, setMainVideoContent] = useState(false);
+  // const [mainVideoContent, setMainVideoContent] = useState(false);
 
-  const MainVideoContentData = () => {
-    setMainVideoContent(true);
-  };
+  // const MainVideoContentData = () => {
+  //   setMainVideoContent(true);
+  // };
   useEffect(() => {
     var navbar = document.querySelector("nav");
     window.onscroll = function () {
@@ -26,7 +26,7 @@ const VideoContent = () => {
       <div className="lazyload-wrapper">
         <div
           className="BackgroundVideo background_video css-1y0iy9d-Slider"
-          onClick={MainVideoContentData}
+          // onClick={MainVideoContentData}
           tabindex="0"
           style={{
             position: "absolute;",
