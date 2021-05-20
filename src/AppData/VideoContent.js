@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import VideoContentImg from "../assets/VideoContent.png";
+import ReactPlayer from "react-player";
+
 
 const VideoContent = () => {
   const [mainVideoContent, setMainVideoContent] = useState(false);
@@ -36,7 +38,25 @@ const VideoContent = () => {
             overflow: "hidden;",
           }}
         >
-          {mainVideoContent !== true ? (
+          <ReactPlayer
+            url="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"
+            playing= {true}
+            loop={true}
+            width="1665px"
+            height="936px"
+            controls = {false}
+            volume = '0'
+            muted = {true}
+            style={{
+                  position: "absolute;",
+                  width: "1665px;",
+                  height: "936.562px;",
+                  top: "-158.281px;",
+                  left: "0px;",
+                }}
+          />
+
+          {/* {mainVideoContent !== true ? (
             <img
               width="1665"
               height="936"
@@ -51,21 +71,31 @@ const VideoContent = () => {
               alt="Main Video Content"
             />
           ) : (
-            <iframe
-              src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4?autoplay=1&controls=0"
-              width="1665"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              height="936"
-              frameborder="0"
-              style={{
-                position: "absolute;",
-                width: "1665px;",
-                height: "936.562px;",
-                top: "-158.281px;",
-                left: "0px;",
-              }}
-            ></iframe>
-          )}
+            // <iframe
+            //   src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4?autoplay=1&controls=0"
+            //   width="1665"
+            //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            //   height="936"
+            //   frameborder="0"
+            //   style={{
+            //     position: "absolute;",
+            //     width: "1665px;",
+            //     height: "936.562px;",
+            //     top: "-158.281px;",
+            //     left: "0px;",
+            //   }}
+            // ></iframe>
+            <ReactPlayer
+            url="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"
+            playing= {true}
+            loop={true}
+            width="1665px"
+            height="936px"
+            controls = {false}
+            volume = '0'
+            muted = {true}
+          />
+          )} */}
         </div>
       </div>
       <Link

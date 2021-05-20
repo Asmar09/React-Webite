@@ -5,7 +5,6 @@ import Sketch from './DataChunks/sketch';
 const ExampleData = () => {
     return (
        <>
-
 <div id="Example-Deliverables" className="mpartial_section howitworks css-13erfhv-Deliverables">
     <div className="container">
       <div className="title center">
